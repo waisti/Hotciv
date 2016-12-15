@@ -1,0 +1,13 @@
+Testsuite: hotciv.standard.TestEpsilonCiv
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,02 sec
+
+Testcase: loneLegionOnAPlainHas2DS took 0,01 sec
+Testcase: loneLegionOnAPlainHas4AS took 0 sec
+Testcase: legionWithAFriendInACityHas9DS took 0,001 sec
+Testcase: winnerIsTheFirstToWin3Attacks took 0,001 sec
+Testcase: legionWithAFriendOnAPlainHas3DS took 0 sec
+Testcase: legionWithAFriendOnAPlainHas5AS took 0 sec
+Testcase: ifAttackerLosesHeDissapears took 0 sec
+Testcase: OIsTrueIfASxd1LargerDSxd2 took 0 sec
+Testcase: legionWithAFriendInACityHas15AS took 0 sec
+Testcase: OIsFalseIfASxd1SmallerDSxd2 took 0 sec

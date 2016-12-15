@@ -1,0 +1,11 @@
+Testsuite: hotciv.standard.TestUtility
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,018 sec
+
+Testcase: shouldGiveCorrectTerrainFactors took 0,006 sec
+Testcase: shouldGive3PositionsForP0_0 took 0 sec
+Testcase: shouldGiveSum1ForBlueAtP5_5 took 0,002 sec
+Testcase: shouldGive3PositionsForP15_15 took 0,001 sec
+Testcase: shouldGiveSum0ForBlueAtP2_4 took 0,001 sec
+Testcase: shouldGive8PositionsForP8_8 took 0 sec
+Testcase: shouldGiveSum3ForRedAtP2_2 took 0 sec
+Testcase: shouldGiveSum2ForRedAtP2_4 took 0 sec

@@ -1,0 +1,8 @@
+Testsuite: hotciv.standard.TestSemiCiv
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,013 sec
+
+Testcase: year25PassBetween1750and1900ad took 0,003 sec
+Testcase: year50PassBetween50and1750ad took 0,001 sec
+Testcase: loneLegionOnAForestHas4DS took 0 sec
+Testcase: thereShouldBeBlueCityAt4_5 took 0,003 sec
+Testcase: theWorldShouldHaveCorrectTiles took 0,001 sec

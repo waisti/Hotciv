@@ -1,0 +1,9 @@
+Testsuite: hotciv.standard.TestDeltaCiv
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,008 sec
+
+Testcase: thereShouldBeARedSettlerAt5_5 took 0,002 sec
+Testcase: thereShouldBeRedCityAt8_12 took 0 sec
+Testcase: thereShouldBeARedArcherAt3_8 took 0 sec
+Testcase: thereShouldBeABlueLegionAt4_4 took 0 sec
+Testcase: thereShouldBeBlueCityAt4_5 took 0 sec
+Testcase: theWorldShouldHaveCorrectTiles took 0 sec

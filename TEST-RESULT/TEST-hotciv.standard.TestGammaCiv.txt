@@ -1,0 +1,6 @@
+Testsuite: hotciv.standard.TestGammaCiv
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,007 sec
+
+Testcase: createCitiesAtPosition8_8 took 0,003 sec
+Testcase: settlerShouldMakeCityAndDissapear took 0 sec
+Testcase: canRemoveUnitAtPosition4_3 took 0 sec

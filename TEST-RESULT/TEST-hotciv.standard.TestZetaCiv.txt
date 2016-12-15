@@ -1,0 +1,6 @@
+Testsuite: hotciv.standard.TestZetaCiv
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,008 sec
+
+Testcase: before20RoundsPlayerThatTakesAllCitiesWins took 0,003 sec
+Testcase: before20RoundsPlayerThatWins3AttacksDoesNotWin took 0 sec
+Testcase: after20RoundsPlayerThatWins3AttacksWins took 0 sec

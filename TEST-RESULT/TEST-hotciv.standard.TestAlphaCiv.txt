@@ -1,0 +1,39 @@
+Testsuite: hotciv.standard.TestAlphaCiv
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,13 sec
+------------- Standard Output ---------------
+Not that players turn
+Can not move more than one 1 tile
+Can not move outside the map
+Can not move to an ocean or mountain
+------------- ---------------- ---------------
+
+Testcase: thereShouldBeHillsAt0_1 took 0,062 sec
+Testcase: thereShouldBeARedSettlerAt4_3 took 0 sec
+Testcase: shouldBeRedAsStartingPlayer took 0 sec
+Testcase: settlersCost30 took 0 sec
+Testcase: thereShouldBeOceanAt1_0 took 0 sec
+Testcase: citiesCanChangeProduction took 0 sec
+Testcase: blueComesAfterRed took 0 sec
+Testcase: unitsCanTakeCities took 0 sec
+Testcase: redCantMoveBlueUnits took 0,001 sec
+Testcase: UnitsCantMoveWithDepletedMovement took 0,001 sec
+Testcase: gameShouldAge took 0 sec
+Testcase: citiesCanProduceArchers took 0 sec
+Testcase: redShouldWinAt3000 took 0 sec
+Testcase: thereShouldBePlainsAt0_0and3_7and15_15 took 0,001 sec
+Testcase: attackingUnitDestroysDefender took 0 sec
+Testcase: thereShouldBeARedArcherAt2_0 took 0 sec
+Testcase: unitsCantMoveMoreThanOne took 0 sec
+Testcase: legionsCost15 took 0 sec
+Testcase: unitsCantMoveOnOcean took 0,001 sec
+Testcase: thereShouldBeABlueLegionAt3_2 took 0 sec
+Testcase: cityPopShouldBe1 took 0 sec
+Testcase: unitsCanMove took 0 sec
+Testcase: thereShouldBeARedCityAt1_1 took 0,001 sec
+Testcase: producedUnitsSpawnNorth took 0 sec
+Testcase: unitsHaveCorrectAttackingStrength took 0 sec
+Testcase: shouldIntegrateBetaWinnerStrategy took 0,006 sec
+Testcase: thereShouldBeABlueCityAt4_1 took 0 sec
+Testcase: citiesAccumulateProduction took 0 sec
+Testcase: thereShouldBeMountainsAt2_2 took 0 sec
+Testcase: unitsHaveCorrectDefensiveStrength took 0 sec

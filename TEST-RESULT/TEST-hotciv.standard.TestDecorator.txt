@@ -1,0 +1,56 @@
+Testsuite: hotciv.standard.TestDecorator
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0,031 sec
+------------- Standard Output ---------------
+hotciv.standard.CityImpl@122cdd0
+RED changes production in city at [1,1] to settler.
+RED changes production in city at [1,1] to archer.
+RED ends turn.
+RED moves archer from [2,0] to [2,1].
+RED moves archer from [2,1] to [3,1].
+RED moves archer from [3,1] to [4,1].
+Not that players turn
+RED moves archer from [2,0] to [3,0].
+Can not move more than one 1 tile
+RED changes production in city at [1,1] to archer.
+archer
+RED moves archer from [2,0] to [3,0].
+RED moves archer from [3,0] to [3,1].
+RED moves archer from [3,1] to [3,2].
+Can not move outside the map
+RED changes production in city at [1,1] to legion.
+Can not move to an ocean or mountain
+archerfor helvede
+nullfor søren
+RED moves archer from [2,0] to [3,0].
+RED changes production in city at [1,1] to archer.
+------------- ---------------- ---------------
+
+Testcase: thereShouldBeHillsAt0_1 took 0 sec
+Testcase: thereShouldBeARedSettlerAt4_3 took 0 sec
+Testcase: shouldBeRedAsStartingPlayer took 0 sec
+Testcase: settlersCost30 took 0,001 sec
+Testcase: thereShouldBeOceanAt1_0 took 0 sec
+Testcase: citiesCanChangeProduction took 0 sec
+Testcase: blueComesAfterRed took 0 sec
+Testcase: unitsCanTakeCities took 0 sec
+Testcase: redCantMoveBlueUnits took 0,001 sec
+Testcase: UnitsCantMoveWithDepletedMovement took 0,001 sec
+Testcase: gameShouldAge took 0 sec
+Testcase: citiesCanProduceArchers took 0 sec
+Testcase: redShouldWinAt3000 took 0,001 sec
+Testcase: thereShouldBePlainsAt0_0and3_7and15_15 took 0 sec
+Testcase: attackingUnitDestroysDefender took 0 sec
+Testcase: thereShouldBeARedArcherAt2_0 took 0,001 sec
+Testcase: unitsCantMoveMoreThanOne took 0 sec
+Testcase: legionsCost15 took 0,001 sec
+Testcase: unitsCantMoveOnOcean took 0,001 sec
+Testcase: thereShouldBeABlueLegionAt3_2 took 0 sec
+Testcase: cityPopShouldBe1 took 0,001 sec
+Testcase: unitsCanMove took 0 sec
+Testcase: thereShouldBeARedCityAt1_1 took 0 sec
+Testcase: producedUnitsSpawnNorth took 0,001 sec
+Testcase: unitsHaveCorrectAttackingStrength took 0 sec
+Testcase: thereShouldBeABlueCityAt4_1 took 0,001 sec
+Testcase: citiesAccumulateProduction took 0 sec
+Testcase: thereShouldBeMountainsAt2_2 took 0 sec
+Testcase: unitsHaveCorrectDefensiveStrength took 0 sec
