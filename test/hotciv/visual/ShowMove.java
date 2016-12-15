@@ -42,3 +42,33 @@ public class ShowMove {
     editor.setTool( new SelectionTool(editor) );
   }
 }
+
+class MoveTool extends NullTool {
+  private UnitStub unit;
+  private UnitFigure unitFigure;
+
+  public MoveTool(UnitStub u, UnitFigure uf) {
+    unit = u;
+    unitFigure = uf;
+  }
+
+  public void mouseDown(MouseEvent e, int x, int y) {
+
+  }
+}
+
+
+class UnitStub  implements Unit{
+  private String type;
+  private Player owner;
+  public UnitStub(String type, Player owner) {
+    this.type = type;
+    this.owner = owner;
+  }
+  public String getTypeString() { return type; }
+  public Player getOwner() { return owner; }
+  public int getMoveCount() { return 1; }
+  public int getDefensiveStrength() { return 0; }
+  public int getAttackingStrength() { return 0; }
+
+}

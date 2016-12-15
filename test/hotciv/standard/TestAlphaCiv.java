@@ -51,7 +51,6 @@ public class TestAlphaCiv {
 
 
     /** Fixture for alphaciv testing. */
-    //hd
   @Before
   public void setUp() {
       game = new GameImpl(new AlphaFactory());

@@ -149,6 +149,7 @@ public class CivDrawing
   }
 
   public void tileFocusChangedAt(Position position) {
+
     System.out.println( "Fake it: tileFocusChangedAt "+position );
   }
 

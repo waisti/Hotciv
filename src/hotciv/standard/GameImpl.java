@@ -50,6 +50,8 @@ public class GameImpl implements Game {
   private UnitStrategy unitStrat;
   private WorldLayoutStrategy worldLayoutStrat;
 
+    private GameObserver observer;
+
 
   public GameImpl(GameFactory factory){
     this.factory = factory;
@@ -129,6 +131,8 @@ public class GameImpl implements Game {
             units.remove(from);
             takeCity(to, from);
           }
+          observer.worldChangedAt(from);
+          observer.worldChangedAt(to);
           return true;
 
       }
@@ -146,6 +150,7 @@ public class GameImpl implements Game {
   public void endOfTurn() {
     if (getPlayerInTurn() == Player.RED){
       currentPlayer = Player.BLUE;
+        observer.turnEnds(currentPlayer, age);
     }
     else {
         currentPlayer = Player.RED;
@@ -167,6 +172,8 @@ public class GameImpl implements Game {
             UnitImpl unit = (UnitImpl) pair.getValue();
             unit.setMoveCount(1);
         }
+        observer.turnEnds(currentPlayer, age);
+
     }
   }
 
@@ -190,7 +197,7 @@ public class GameImpl implements Game {
 
     @Override
     public void addObserver(GameObserver observer) {
-
+        this.observer = observer;
     }
 
     @Override
